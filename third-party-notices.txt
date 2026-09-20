@@ -81,9 +81,9 @@ SOFTWARE.
 
 
 
-Original Galaxy and Grid effects restored, modified 2026-09-20.
+Original Galaxy restored; new independent WishLightBackground, modified 2026-09-20.
 This combined frontend and the new modifications are supplied under GPL-3.0.
-Corresponding source, including the editable/rebuildable LGPL grid component:
+Corresponding source for the currently running frontend:
 ./frontend-source.zip (build instructions: SOURCE-README.md inside the ZIP).
 No warranty is provided. See ./licenses/GPL-3.0.txt for terms.
 
@@ -92,16 +92,15 @@ Source: https://github.com/FrankWkd-Plus/galaxy-theme-portfolio
 Reference commit: a16f4e32089575cd595c76bd205b6a3ddfbb8b6b
 Copyright (C) 2026 FrankWkd; GPL v3.
 Original upstream license retained verbatim: ./licenses/galaxy-upstream.txt
-Local modifications: pointer input, resize, elapsed-time motion, bounded DPR,
+Local modifications: fixed camera without pointer input, slower elapsed-time motion, bounded DPR,
 visibility/reduced-motion pause, resource cleanup and context-loss fallback.
 
-GridAnimationBackground.vue
+Historical GridAnimationBackground.vue (NOT part of this running frontend/source ZIP)
 Source: https://github.com/SimonAKing/HomePage/blob/19b90161b231cd64bd9c3aeb2afc723e04259df8/src/js/main.js
 Copyright SimonAKing and HomePage contributors; LGPL-3.0.
-Full license: ./licenses/LGPL-3.0.txt (with GPL-3.0.txt).
-Local modifications: touch pointers, logical-pixel canvas sizing, bounded DPR,
-frame-rate independent movement and bounded free-cell selection.
-The corresponding source can be modified and relinked by rebuilding this app.
+Historical license retained: ./licenses/LGPL-3.0.txt (with GPL-3.0.txt).
+The current wishes background is a new Canvas 2D implementation,
+WishLightBackground.vue, distributed as part of this GPL-3.0 frontend.
 
 Three.js: MIT license and copyright: ./licenses/three-MIT.txt
 fflate (build-only ZIP writer): MIT license: ./licenses/fflate-MIT.txt

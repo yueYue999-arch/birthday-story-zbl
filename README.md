@@ -2,7 +2,7 @@
 
 [原始个案](https://yueyue999-arch.github.io/birthday-story-zbl/) · [制作专属祝福](https://yueyue999-arch.github.io/birthday-story-zbl/?edit=1)
 
-这是静态网页发布副本，包含原版星空、网格、跨端适配、内容编辑和离线浏览。
+这是静态网页发布副本，包含无交互的原版星空双环、流萤寄语、跨端适配、内容编辑和离线浏览。
 
 [对应前端源码下载](https://yueyue999-arch.github.io/birthday-story-zbl/frontend-source.zip) · [来源与许可](https://yueyue999-arch.github.io/birthday-story-zbl/source.html)
 
